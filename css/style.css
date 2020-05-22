@@ -4,7 +4,12 @@ padding: 0;
 box-sizing: border-box;
 }
 body{
+height: 100vh;
 background: #ffbb00;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
 }
 .fill{
  background: url(../img/drag.jpg) center/cover;
@@ -20,7 +25,7 @@ display: inline-block;
 height: 165px;
 width: 165px;
 margin: 10px;
-border: 3px solid #000;
+border: 3px solid #E09A82;
 background: #fff;
 }
 
