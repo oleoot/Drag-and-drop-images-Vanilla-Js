@@ -1,0 +1,36 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background: #ffbb00;
+}
+.fill{
+ background: url(../img/drag.jpg) center/cover;
+ position: relative;
+ height: 150px;
+ width: 150px;
+ top: 4px;
+ left: 4px;
+ cursor: pointer;
+}
+.empty{
+display: inline-block;
+height: 165px;
+width: 165px;
+margin: 10px;
+border: 3px solid #000;
+background: #fff;
+}
+
+.hold{
+border: 4px solid #ccc;
+}
+.hovered{
+background: #f4f4f4;
+border-style: dashed;
+}
+.invisible{
+ display: none;
+}
